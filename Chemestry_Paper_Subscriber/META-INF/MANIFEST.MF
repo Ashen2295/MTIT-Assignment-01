@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Chemestry_Paper_Subscriber
+Bundle-SymbolicName: Chemestry_Paper_Subscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: chemestry_paper_subscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-12
+Automatic-Module-Name: Chemestry_Paper_Subscriber
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: Publisher_Chemestry_Paper,
+ Publisher_Maths_Paper
